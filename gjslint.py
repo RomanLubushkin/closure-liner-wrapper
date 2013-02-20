@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 from closure_linter import gjslint
-import error_rules
+import errorrules
 
 if __name__ == '__main__':
-    error_rules.InjectErrorReporter()
+    errorrules.InjectErrorReporter()
     gjslint.main()
